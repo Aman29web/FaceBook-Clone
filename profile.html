@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/af810e55de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="Tasveer/images/logo.png" class="logo">
+            <ul>
+                <li><img src="Tasveer/images/notification.png" alt=""></li>
+                <li><img src="Tasveer/images/inbox.png" alt=""></li>
+                <li><img src="Tasveer/images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="Tasveer/images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="Tasveer/images/profile-pic.png" alt="">
+            </div>
+        </div>
+        <!-- Settingd-munu-startred -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+
+            <div class="settinfs-menu-inner">
+            <div class="user-profile">
+                <img src="Tasveer/images/profile-pic.png">
+                <div>
+                    <p>Aman Singh</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+
+            <hr>
+            <div class="user-profile">
+                <img src="Tasveer/images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve to new desgn</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="setting-links">
+                <img src="Tasveer/images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="Tasveer/images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="Tasveer/images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="Tasveer/images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="Tasveer/images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="Tasveer/images/arrow.png" width="10px"> </a>
+            </div>
+            <div class="setting-links">
+                <img src="Tasveer/images/logout.png" class="settings-icon">
+                <a href="#">Logout  <img src="Tasveer/images/arrow.png" width="10px"> </a>
+            </div>
+        </div>
+
+        </div>
+
+    </nav>
+    <!-- Profile page -->
+
+    <div class="profile-container">
+        <img src="Tasveer/images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="Tasveer/images/profile.png" class="pd-img">
+                    <div>
+                        <h3>Aman Singh</h3>
+                        <p>120 friends - 20 Mutual</p>
+                        <img src="Tasveer/images/member-1.png" alt="">
+                        <img src="Tasveer/images/member-3.png" alt="">
+                        <img src="Tasveer/images/member-3.png" alt="">
+                        <img src="Tasveer/images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="Tasveer/images/add-friends.png" alt=""> Friend</button>
+                <button type="button"><img src="Tasveer/images/message.png" alt=""> Message</button>
+                <br>
+                <a href="#"><img src="Tasveer/images/more.png" alt=""></a>
+
+
+
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="Tasveer/images/feeling.png" alt=""> </p>
+                    <hr>
+                    <ul>
+                        <li> <img src="Tasveer/images/profile-job.png" alt=""> Director at 99media Limited</li>
+                        <li> <img src="Tasveer/images/profile-study.png" alt=""> Studied at Chandigarh University</li>
+                        <li> <img src="Tasveer/images/profile-study.png" alt=""> Went to Sara Varansi</li>
+                        <li> <img src="Tasveer/images/profile-home.png" alt=""> Lives in Varanassi, India</li>
+                        <li> <img src="Tasveer/images/profile-location.png" alt=""> From varanasi, India</li>
+                    </ul>
+                </div>
+
+               
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                </div>
+                    <div class="photo-box">
+                        
+                            <div><img src="Tasveer/images/photo1.png" alt=""></div>
+                            <div><img src="Tasveer/images/photo2.png" alt=""></div>
+                            <div><img src="Tasveer/images/photo3.png" alt=""></div>
+                            <div><img src="Tasveer/images/photo4.png" alt=""></div>
+                            <div><img src="Tasveer/images/photo5.png" alt=""></div>
+                            <div><img src="Tasveer/images/photo6.png" alt=""></div>  
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                </div>
+                <p>
+                    120 (10 mutual)
+                </p>
+                    <div class="friends-box">
+                        
+                            <div><img src="Tasveer/images/member-1.png" alt=""><p>Nikhil</p></div>
+                            <div><img src="Tasveer/images/member-2.png" alt=""><p>Maynak</p></div>
+                            <div><img src="Tasveer/images/member-3.png" alt=""><p>Rishabh</p></div>
+                            <div><img src="Tasveer/images/member-4.png" alt=""><p>Aryan</p></div>
+                            <div><img src="Tasveer/images/member-5.png" alt=""><p>Shashank</p></div>
+                            <div><img src="Tasveer/images/member-6.png" alt=""><p>Dheeraj</p></div>
+                            <div><img src="Tasveer/images/member-7.png" alt=""><p>Ashutosh</p></div>   
+                            <div><img src="Tasveer/images/member-8.png" alt=""><p>Siddartha</p></div> 
+                            <div><img src="Tasveer/images/member-9.png" alt=""><p>Aniket</p></div> 
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="Tasveer/images/profile-pic.png">
+                        <div>
+                            <p>
+                                Aman Singh
+                            </p>
+                            <small>Public<i class="fa-solid fa-angle-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-inpt-container">
+                        <textarea rows="3" placeholder="What's on your mind, Aman"></textarea>
+    
+                        <div class="add-post-links">
+                            <a href="#"><img src="Tasveer/images/live-video.png" >Live Video</a>
+                            <a href="#"><img src="Tasveer/images/photo.png" >Photo Video</a>
+                            <a href="#"><img src="Tasveer/images/feeling.png" >Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Tasveer/images/profile-pic.png">
+                            <div>
+                                <p>
+                                    Aman Singh
+                                </p>
+                               <span>
+                                June 24 2024, 13:40 pm
+                               </span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    
+                    </div>
+                    
+    
+                    <p class="post-text">
+                        We are Aman Singh and<span> Kizie </span>and this website is made by us using HTML, CSS, JavaScript and NodeJs. <a href="#">#AmanSingh </a><a href="#">#KizieDew</a>
+                    </p>
+    
+                    <img src="Tasveer/images/feed-image-2.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="Tasveer/images/like-blue.png" alt="">128
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/comments.png" alt="">38
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/share.png" alt="">16
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Tasveer/images/profile-pic.png" >
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Tasveer/images/profile-pic.png">
+                            <div>
+                                <p>
+                                    Aman Singh
+                                </p>
+                               <span>
+                                June 24 2024, 13:40 pm
+                               </span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    
+                    </div>
+                    
+    
+                    <p class="post-text">
+                        We are Aman Singh and<span> Kizie </span>and this website is made by us using HTML, CSS, JavaScript and NodeJs. <a href="#">#AmanSingh </a><a href="#">#KizieDew</a>
+                    </p>
+    
+                    <img src="Tasveer/images/feed-image-1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="Tasveer/images/like.png" alt="">128
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/comments.png" alt="">38
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/share.png" alt="">16
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Tasveer/images/profile-pic.png" >
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Tasveer/images/profile-pic.png">
+                            <div>
+                                <p>
+                                    Aman Singh
+                                </p>
+                               <span>
+                                June 24 2024, 13:40 pm
+                               </span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    
+                    </div>
+                    
+    
+                    <p class="post-text">
+                        We are Aman Singh and<span> Kizie </span>and this website is made by us using HTML, CSS, JavaScript and NodeJs. <a href="#">#AmanSingh </a><a href="#">#KizieDew</a>
+                    </p>
+    
+                    <img src="Tasveer/images/feed-image-3.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="Tasveer/images/like.png" alt="">128
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/comments.png" alt="">38
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/share.png" alt="">16
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Tasveer/images/profile-pic.png" >
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Tasveer/images/profile-pic.png">
+                            <div>
+                                <p>
+                                    Aman Singh
+                                </p>
+                               <span>
+                                June 24 2024, 13:40 pm
+                               </span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    
+                    </div>
+                    
+    
+                    <p class="post-text">
+                        We are Aman Singh and<span> Kizie </span>and this website is made by us using HTML, CSS, JavaScript and NodeJs. <a href="#">#AmanSingh </a><a href="#">#KizieDew</a>
+                    </p>
+    
+                    <img src="Tasveer/images/feed-image-4.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="Tasveer/images/like.png" alt="">128
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/comments.png" alt="">38
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/share.png" alt="">16
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Tasveer/images/profile-pic.png" >
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="Tasveer/images/profile-pic.png">
+                            <div>
+                                <p>
+                                    Aman Singh
+                                </p>
+                               <span>
+                                June 24 2024, 13:40 pm
+                               </span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    
+                    </div>
+                    
+    
+                    <p class="post-text">
+                        We are Aman Singh and<span> Kizie </span>and this website is made by us using HTML, CSS, JavaScript and NodeJs. <a href="#">#AmanSingh </a><a href="#">#KizieDew</a>
+                    </p>
+    
+                    <img src="Tasveer/images/feed-image-5.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div>
+                                <img src="Tasveer/images/like.png" alt="">128
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/comments.png" alt="">38
+                            </div>
+                            <div>
+                                <img src="Tasveer/images/share.png" alt="">16
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="Tasveer/images/profile-pic.png" >
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <p>Copyright 2024 - Kizie & Shinu</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
